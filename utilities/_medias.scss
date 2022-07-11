@@ -1,0 +1,57 @@
+@import "colores";
+
+@media screen and (max-width: 768px) {
+    .btn-primary {    
+    font-weight: bold;
+     --bs-btn-color: #00000;
+     --bs-btn-bg: #fff9e6;
+    --bs-btn-border-color: #fff9e6;
+    --bs-btn-hover-bg: #fff9e6;
+    --bs-btn-hover-border-color: #fff9e6;
+    --bs-btn-active-bg: #fff9e6;
+    --bs-btn-focus-shadow-rgb: 255,249,230;
+    }
+    h5.offcanvas-title{
+        color: black;
+        font-size: 40px;
+    }
+    .offcanvas-title li{
+        border-bottom: 3px solid black;
+
+    }
+    .offcanvas.offcanvas-start{
+        background-color: $colorSecundario;
+    }
+    button img{
+        width: 100px;
+    }
+    html{
+        body{
+           width: 100%;
+        }
+    }
+    article{
+        width: 100%;
+    }    
+    div{        
+        &.offcanvas{
+            --bs-offcanvas-width: 375px;
+        }
+        &.imagenMobile{
+            grid-area: header;
+            display: block;
+            display: flex;
+            justify-content: center;
+        }
+        &.celulares{
+            display: inline;
+        }
+
+
+    } 
+}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1024px) {}
+

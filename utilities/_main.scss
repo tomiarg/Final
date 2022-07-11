@@ -1,0 +1,118 @@
+main{
+    height: 100vh;
+    font-weight: bolder;
+    text-align: center;
+    background-image: url(../img/posibleMainimg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    hr{
+        margin-top: 0px;
+    }
+    h1{
+        width: 400px;
+        background-color: #fff9e6;
+        padding: 12px;
+        font-size: 72px;
+        font-weight: bolder; 
+        mix-blend-mode: screen;
+        margin:0 auto;
+    }
+    h4{
+        background-color: #fff9e6;
+        padding: 12px;
+        font-weight: bold;
+        color: black;
+        mix-blend-mode: screen;
+        margin:0 auto;
+        width: 400px;        
+    }
+}
+.imgIndex{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    div{
+        img{
+        width: 400px;
+        height: 400px; 
+        border-radius: 50%;
+        transition: 0.5s;
+        object-fit: cover;
+            &:hover{
+              transform: scale(1.1);
+            }
+        }           
+    }
+}
+.p-mobile{
+    display: flex;
+    font-weight: bolder;
+    font-family: 'Mulish', sans-serif;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 120px;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    h4{     
+       display:none;
+    }
+    h1{
+        margin: 0 auto;
+    }
+    hr {
+        color: white;
+        height: 5px;
+        background-color: white;
+        opacity: 1;
+      }
+    main{
+        width: 100%;
+    }
+    .imgIndex{
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       div{
+         img{
+            width: 200px;
+            height: 200px;
+          }
+        }
+    
+    }
+   .p-mobile {            
+        display: flex;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        flex-direction: column;
+        align-content: center;
+        margin-top: 120px;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: center
+    }
+}    
+@media screen and (max-width: 1200px) {
+
+    .imgIndex{
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        div{
+            img{
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+}
+   
