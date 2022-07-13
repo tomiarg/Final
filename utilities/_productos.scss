@@ -65,31 +65,34 @@
         justify-content: space-between;
     }
     .bg-dark{
-        height: 150px;
-        width: 150px;
+        height: 300px;
+        width: 300px;
+        margin-bottom: 45px;
     }
 
     .productos{
         div{
            img{
-               height: 150px;
-               width: 150px;
+               height: 300px;
+               width: 300px;
+               margin-bottom: 40px;
            }
         }
     }
+    .card-title{
+        background-color: black;
+    }
+    p.card-text{
+        background-color: black;
+    }
 
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 350px){
     .bg-dark{
-        height: 100px;
-        width: 100px;
+        height: 235px;
+        width: 235px;
     }
-    .card-title{
-        font-size: 10px;
-    }
-    .card-text:last-child{
-        font-size: 8px;
-    }
+
     .card-img{
         width: 100px;
         height: 100px;
@@ -97,8 +100,8 @@
     .productos{
         div{
            img{
-               height: 100px;
-               width: 100px;
+               height: 235px;
+               width: 235px;
            }
         }
     }

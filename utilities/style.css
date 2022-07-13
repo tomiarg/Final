@@ -374,33 +374,35 @@ main h4 {
             justify-content: space-between;
   }
   .bg-dark {
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 45px;
   }
   .productos div img {
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 40px;
+  }
+  .card-title {
+    background-color: black;
+  }
+  p.card-text {
+    background-color: black;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
   .bg-dark {
-    height: 100px;
-    width: 100px;
-  }
-  .card-title {
-    font-size: 10px;
-  }
-  .card-text:last-child {
-    font-size: 8px;
+    height: 235px;
+    width: 235px;
   }
   .card-img {
     width: 100px;
     height: 100px;
   }
   .productos div img {
-    height: 100px;
-    width: 100px;
+    height: 235px;
+    width: 235px;
   }
 }
 
@@ -554,10 +556,12 @@ main h4 {
 
 .quienesSomos section.quienesProfes div.card-body h5 {
   color: black;
+  background-color: white;
 }
 
 .quienesSomos section.quienesProfes div.card-body p {
   color: grey;
+  background-color: white;
 }
 
 .quienesSomos.nombresQuienes {
@@ -980,7 +984,7 @@ ul.social-footer2 li a {
 
 .btn {
   background-color: #fff9e6;
-  color: black;
+  color: #fff;
 }
 
 .btn:hover, .btn:focus, .btn.active {
@@ -1043,6 +1047,12 @@ ul.social-footer2 li a {
   }
   div.celulares {
     display: inline;
+  }
+  a.btn {
+    color: Black;
+  }
+  .btn-primary {
+    color: black;
   }
 }
 
